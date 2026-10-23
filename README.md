@@ -1,7 +1,5 @@
 # Das telas ás entidades
 
-_(Victor Alves)_
-
 A partir das telas desenvolvidas no Figma para o KeepiMov , identifiquei os dados que o sistema precisa salvar no banco de dados:
 
 # tela de Autenticação (Login e Cadastro)
