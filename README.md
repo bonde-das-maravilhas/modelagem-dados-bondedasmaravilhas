@@ -6,7 +6,7 @@ A partir das telas desenvolvidas no Figma para o KeepiMov , identifiquei os dado
 
 # tela de Autenticação (Login e Cadastro)
 
-![Tela de Autenticação](docs/telas/login.png)
+![Tela de Autenticação](docs/telas/login.png) ![Tela de Cadastro](docs/telas/cadastro.png)
 
 ao analisar a tela de entrada do KeepiMov, identificamos a necessidades de criar a tabela de usuarios para autenticação no aplicativo.
 
