@@ -5,4 +5,4 @@
 
 
 #exemplo de table não formalizada
-  <img width="958" height="240" alt="tabela Não normalizda" src="https://github.com/user-attachments/assets/2068824a-4925-4baa-b53f-b11fdc8be7d3" />
+  <img width="958" height="240" alt="tabela Não normalizda" src="./assets/image/table-not-formalize.png" />
