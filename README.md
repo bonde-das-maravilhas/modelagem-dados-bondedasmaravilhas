@@ -1,8 +1,7 @@
-**3. Normalização aplicada**
-
-- mostrar uma tabela do projeto em uma versão não normalizada (como alguém faria sem pensar no modelo) e o passo a passo até a 3FN
-- explicar em cada passo o que foi corrigido e por quê
-
-
-#exemplo de table não formalizada
-  <img width="958" height="240" alt="tabela Não normalizda" src="https://github.com/user-attachments/assets/2068824a-4925-4baa-b53f-b11fdc8be7d3" />
+# ADO-01
+| Integrante | GitHub | Responsabilidade |
+| --- | --- | --- |
+| Thomas lindão | @tthomaslamouniercarvalho-dotcom | Normalização das tabelas aplicada |
+| Victor Mineirin | @victoralvez07 | Telas relacionais e das telas ás entidades |
+| Maria Bacanuda | @mardudasoares | fundamentação |
+| Lucas Vilão | @lucascorreaa | Supervisor de trabalho Premium |
