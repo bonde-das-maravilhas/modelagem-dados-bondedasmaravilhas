@@ -4,36 +4,24 @@ A partir das telas desenvolvidas no Figma para o KeepiMov , identifiquei os dado
 
 # tela de Autenticação (Login e Cadastro)
 
-![Tela de Autenticação](docs/telas/login.png) ![Tela de Cadastro](docs/telas/cadastro.png)
+#exemplo de table não formalizada
+  <img width="958" height="240" alt="tabela Não normalizda" src="./assets/image/table-not-formalize.png" />
+  essa tabela não formalizada usada como exemplo com dados que usaremos no nosso site(talvez haja alterações)
+  aplicando a normalização da tabela como requerido
+  <img width="592" height="285" alt="tabela 1FN" src="./assets/image/1FN.png" />
+  aplicando a 1FN a gente deixa todos os dados de maneira atomica com um unico dado dentro de cada seção
+  <img width="692" height="563" alt="tabela Não normalizda" src="./assets/image/2FN.png" />
+  Aqui aplicando a 2FN tirando e separando as tabelas unicas (que só se pode ter 1 como só 1 telefone e 1 email ) e normalizando as informações mantendo as primarias não juntando com as primarias
+  e fazendo os dados da tabela se separar ja que email e telefone são dois jeitos de puxar a tabela pessoa porém só precisamos do email pra puxar a tabela pessoa então não precisamos da informação do telefone naquela tabela
+  assim separando as tabelas para evitar esse acumulo de linhas em uma tabela que pode ser repartida e mantendo as informações essenciais dentro da tabela requerida
+  <img width="560" height="592" alt="tabela Não normalizda" src="./assets/image/3FN.png" />
+  ultima formalização da tabela fazendo os atributos comuns não dependerem de atributos comuns e se relacionarem diretamente da chave da tabela e somente com ela
 
-ao analisar a tela de entrada do KeepiMov, identificamos a necessidades de criar a tabela de usuarios para autenticação no aplicativo.
+  #tabela toda na ordem dos passos
+  <img width="1032" height="1009" alt="tabela Não normalizda" src="./assets/image/all-table.png" />
 
-- Entidade gerada: `usuario`
-  -campos identificados no figma: -`id` Codigo identificador do usuario -`nome-completo`: Nome digitado no cadastro -`email`:E-mail usado para login -`senha_hash`: Senha cadastrada pelo usuario -`data_criacao`: Data de registrono aplicativo
-
-  ***
-
-# Tela de perfil e configurações
-
-![Tela de perfil](docs/telas/perfil.png)
-
-Nesta tela, o usuario gerencia suas informações pessoais e preferencias de uso do aplicativo
-
-- Entidade geradas `perfil` e `preferencia`
-- Campos identificados do figma:
-- Na tabela `perfil`: `foto_url`, `biografia`, `cidade_residencia`
-- Na tabela `preferencia`: `notificacoes_linhas_ativas`, `tema_escuro`
-
----
-
-# Tela principal (Home / Status das linhas)
-
-![tela principal](docs/telas/home.png)
-
-tela principal do KeepiMov, o usuario acompanha a situação das linhas de metro e pode registrar alertas de incidentes
-
--Entidades geradas: `linha` e `alerta`
--campo identificados no figma:
-
-- Na tabela `linha`: `nome_linha`, `status_operacao` (ex: Normal, Velocidade Reduzida)
-- Na Tabela `alerta`: `tipo_incidente`, `descricao`, `horario_registro`
+  Integrante: @tthomaslamounier
+Anthropic. Claude (modelo utilizado). Ferramenta de inteligência artificial generativa.
+Data de uso: 24 out. 2026.
+Finalidade: Esclarecimento do que se fazer no exercício dado.
+Arquivos impactados: README.md (seção Normalização)
