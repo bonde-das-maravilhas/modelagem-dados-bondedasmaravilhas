@@ -43,7 +43,7 @@
 #### Finalidade: verificação e revisão de textos feitos em estudos sobre modelo conceitual, lógico e físico, MER/DER.
 #### Arquivos impactados: README.md (seção Modelagem)
 
-**3. Normalização aplicada**
+** Normalização aplicada**
 
 - mostrar uma tabela do projeto em uma versão não normalizada (como alguém faria sem pensar no modelo) e o passo a passo até a 3FN
 - explicar em cada passo o que foi corrigido e por quê
