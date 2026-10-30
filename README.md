@@ -66,7 +66,7 @@
   ultima formalização da tabela fazendo os atributos comuns não dependerem de atributos comuns e se relacionarem diretamente da chave da tabela e somente com ela
 
   #tabela toda na ordem dos passos
-  <img width="958" height="640" alt="tabela Não normalizda" src="./assets/image/all-table.png" />
+  <img width="958" height="940" alt="tabela Não normalizda" src="./assets/image/all-table.png" />
   <img width="1032" height="1009" alt="tabela Não normalizda" src="./assets/image/all-table.png" />
 
   Integrante: @tthomaslamounier
